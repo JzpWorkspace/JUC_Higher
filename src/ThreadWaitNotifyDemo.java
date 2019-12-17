@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
  * 两个线程，操作初始值为0的一个变量
  * 实现对该变量的加一 一个线程对该变量减一
  * 实现交替 十轮
+ * 原始
  */
 class Resource {
     private int number = 0;
