@@ -5,6 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * @author jzp
  * @create 2019-12-16 18:43
+ * 进行通知调用。顺序执行
  */
 
 class Resourses {
