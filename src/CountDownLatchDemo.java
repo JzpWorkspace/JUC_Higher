@@ -3,10 +3,8 @@ import java.util.concurrent.CountDownLatch;
 /**
  * @author jzp
  * @create 2019-12-16 19:38
+ * 类似于倒计时来进行线程的顺序执行。
  */
-class ShareResourse {
-
-}
 
 public class CountDownLatchDemo {
     public static void main(String[] args) throws InterruptedException {
