@@ -4,6 +4,7 @@ import java.util.concurrent.CyclicBarrier;
 /**
  * @author jzp
  * @create 2019-12-16 19:49
+ * 正数来完成
  */
 public class CylicBarrier {
     public static void main(String[] args) throws BrokenBarrierException, InterruptedException {
