@@ -7,6 +7,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * @author jzp
  * @create 2019-12-16 19:08
+ * 读写锁
  */
 class MyCache {
     private volatile Map<String, String> map = new HashMap<>();
