@@ -9,6 +9,7 @@ class ResourseClass {
 /**
  * @author jzp
  * @create 2019-12-16 18:01
+ * 线程不安全。
  */
 public class ConcurrentSafe {
     public static void main(String[] args) {
