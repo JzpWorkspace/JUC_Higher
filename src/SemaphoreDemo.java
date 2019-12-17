@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author jzp
  * @create 2019-12-16 20:15
+ * 信号量主要用于两个目的，一个是用于多个共享资源的互斥使用，另一个用于并发线程数的控制
  */
 public class SemaphoreDemo {
     public static void main(String[] args) {
