@@ -17,7 +17,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  *  3.3 CopyOnWriteArrayList() 写时复制技术。
  *      写时复制技术就是，在写操作的时候加锁。读操作不加锁。进行写完成之后再将新的数据copy到新的锁当中去
  * 4.优化建议
- *  4.1 还没得
+ *  4.1 还没得优化建议。
  */
 public class Collectionss{
     public static void main(String[] args) {
