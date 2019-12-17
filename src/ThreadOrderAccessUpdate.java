@@ -1,11 +1,11 @@
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
+
 
 /**
  * @author jzp
  * @create 2019-12-16 21:52
+ * 整合
  */
 class Resources {
     private int flag = 1;
