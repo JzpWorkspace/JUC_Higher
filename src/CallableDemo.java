@@ -9,7 +9,7 @@ import java.util.concurrent.FutureTask;
 class MyThread implements Runnable{
     @Override
     public void run() {
-      System.out.println("异步调用!!");  
+      System.out.println("实现异步调用!!");
     }
 }
 class CallAble implements Callable<String>{
